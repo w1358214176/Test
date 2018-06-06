@@ -1,0 +1,32 @@
+ubuntu 管理员切换：
+
+sudo passwd root  设置root用户密码
+su root      切换
+
+
+安装谷歌输入法教程:
+    https://blog.csdn.net/u011795345/article/details/53041707
+
+Hyper-V修改桌面分辨率:
+   1.sudo gedit /etc/default/grub
+   2.找到GRUB_CMDLINE_LINUX_DEFAULT所在行,加上video=hyperv_fb:1920x1080
+   3.sudo update-grub
+   4.重启机器。
+
+普通用户切换至root用户后，关闭终端会提示残留进程，
+可在root用户使用exit，正常关闭终端
+
+显示隐藏文件：
+   ctrl+h
+
+Ubuntu vim配置安装
+
+ 1.安装git  
+      sudo apt-get install git
+      git config --global user.name "wangwei"
+      git config --global user.email "1358214176@qq.com"
+
+2.下载vimplus
+   
+
+ 
